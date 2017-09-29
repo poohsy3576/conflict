@@ -10,6 +10,9 @@ public class HelloConflict {
 		while(max < 100) {
 			num++;
 			sum += i;
+
+		for (int i=0; i<100; i++) {
+			sum += i;	
 		}
 
 	}
