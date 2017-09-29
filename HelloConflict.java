@@ -7,7 +7,7 @@ public class HelloConflict {
 		int max = 100;	
 		int i = 0;
 
-		while(true) {
+		while(max < 100) {
 			i++;
 			sum += i;
 		}
